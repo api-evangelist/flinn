@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.flinn.ai/security
+notes: >-
+  Flinn publishes its regulatory, quality, and information-security posture on its
+  public security page. The standards below are asserted by Flinn for its MedTech/IVD
+  post-market surveillance platform. Data is hosted exclusively on AWS Frankfurt
+  (eu-central-1) and never leaves the EU. Customer inputs, documents, and outputs are
+  contractually excluded from model training. No public developer API is offered, so
+  API-transport standards (OAuth2/OIDC/RFC 9457/etc.) are not applicable.
+standards:
+- id: iso-iec-27001-2022
+  conforms: true
+  evidence: 'Security page lists ISO/IEC 27001:2022 (information security management).'
+- id: iso-tr-80002-2
+  conforms: true
+  evidence: 'Security page lists ISO/TR 80002-2 (validation of software for medical device quality systems).'
+- id: iec-62304
+  conforms: true
+  evidence: 'Security page lists IEC 62304 (medical device software lifecycle).'
+- id: iso-14971
+  conforms: true
+  evidence: 'Security page lists ISO 14971 (application of risk management to medical devices).'
+- id: fda-21-cfr-part-11
+  conforms: true
+  evidence: 'Security page lists FDA 21 CFR Part 11 (electronic records and electronic signatures).'
+- id: eu-ai-act
+  conforms: true
+  evidence: 'Security page states alignment with the EU AI Act.'
+- id: gdpr
+  conforms: true
+  evidence: 'Security page lists GDPR compliance; all data stored in the EU (AWS eu-central-1).'
+- id: eu-mdr
+  conforms: true
+  evidence: 'Product automates post-market surveillance obligations under the EU Medical Device Regulation (MDR).'
+- id: eu-ivdr
+  conforms: true
+  evidence: 'Product automates PMS obligations under the EU In-Vitro Diagnostic Regulation (IVDR).'
+- id: aes-256-encryption
+  conforms: true
+  evidence: 'Security page states full database encryption (AES-256) and encryption in transit and at rest.'
+compliance_program:
+  hosting: AWS Frankfurt (eu-central-1), EU-only data residency
+  encryption: AES-256 at rest; TLS/HTTPS enforced in transit
+  access: role-based access controls; multi-factor authentication
+  data_use: customer data contractually excluded from model training
+  documents:
+  - Data Processing Agreement (DPA) available
+  - Sub-processor list available upon request
