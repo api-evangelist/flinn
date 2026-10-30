@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Flinn is a company surfaced as a portfolio company of hv-capital, speedinvest and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.
+Flinn (flinn.ai) is an AI-powered regulatory and quality platform for medical technology and in-vitro diagnostics (IVD) manufacturers. It automates post-market surveillance (PMS) and compliance obligations across global frameworks including the EU MDR, IVDR, and FDA 21 CFR requirements. The platform continuously monitors 15+ safety databases in a single click, performs AI-assisted literature evaluation, automates complaint handling, and generates audit-ready reports for low- to high-risk medical devices. Flinn is used by 200+ global MedTech and IVD organizations, is hosted exclusively on AWS in Frankfurt (eu-central-1) with data kept inside the EU, and is validated/certified against ISO/IEC 27001:2022, ISO/TR 80002-2, IEC 62304, ISO 14971, FDA 21 CFR Part 11, the EU AI Act, and GDPR. Backed by HV Capital and Speedinvest. This profile has been enriched from Flinn's public web presence; the product is a closed SaaS application with no public developer API at this time.
 
-Backed by: hv-capital, speedinvest
+**Areas:** Company · Healthcare · Medical Technology · Medical Devices · Regulatory · Compliance · Quality Management · Post-Market Surveillance · IVD · Artificial Intelligence
+
+## Flinn on APIs.io
+
+Everything profiled for Flinn is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flinn/](https://apis.io/providers/flinn/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flinn Domain Security](https://apis.io/security/flinn/flinn-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.flinn.ai)
+- [Sign up](https://app.flinncomply.com/login)
+- [Support](https://www.flinn.ai/contact)
+- [Blog](https://www.flinn.ai/blog)
+- [Security](https://www.flinn.ai/security)
+- [Compliance](https://www.flinn.ai/security)
+- [Terms of service](https://www.flinn.ai/legal)
+- [Privacy policy](https://www.flinn.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 19.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 42.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flinn/](https://apis.io/providers/flinn/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flinn: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flinn/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
